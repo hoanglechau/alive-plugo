@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Gothic";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("AP-OTF-A1GothicStd-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("AP-OTF-A1GothicStd-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Plugo Gothic";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("PLUGOGothic2.0-Regular.otf") format("opentype");
+}
