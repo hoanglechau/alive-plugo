@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+}
+
+.header__language {
+  font-family: "Plugo Gothic";
+  font-size: 16px;
+  display: flex;
+}
+
+.header__language-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.header__nav-item {
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: "Plugo Gothic";
+  font-size: 18px;
+}
+
+.header__search-input {
+  background-image: url(../../assets/icon-search.svg);
+  background-position: right 0% bottom 0%;
+  background-repeat: no-repeat;
+}
