@@ -9,33 +9,54 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="header__logo">
-          <img src="assets/logo-p.svg" alt="logo" />
-          <img src="assets/logo-l.svg" alt="logo" />
-          <img src="assets/logo-u.svg" alt="logo" />
-          <img src="assets/logo-g.svg" alt="logo" />
-          <img src="assets/logo-o.svg" alt="logo" />
-        </div>
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li><a class="header__nav-item" href="#">Company</a></li>
-            <li><a class="header__nav-item" href="#">Business</a></li>
-            <li><a class="header__nav-item" href="#">News</a></li>
-            <li><a class="header__nav-item" href="#">Contact</a></li>
-            <li><a class="header__nav-item" href="#">Recruit</a></li>
-          </ul>
-        </nav>
-        <div class="header__search">
-          <input type="text" class="header__search-input" />
-        </div>
-        <div class="header__language">
-          <a href="#" class="header__language-link">JP</a>
-          <p class="header__language-separator">|</p>
-          <a href="#" class="header__language-link">EN</a>
+        <div class="header__container">
+          <div class="header__logo">
+            <img src="assets/logo-p.svg" alt="logo" />
+            <img src="assets/logo-l.svg" alt="logo" />
+            <img src="assets/logo-u.svg" alt="logo" />
+            <img src="assets/logo-g.svg" alt="logo" />
+            <img src="assets/logo-o.svg" alt="logo" />
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li><a class="header__nav-item" href="#">Company</a></li>
+              <li><a class="header__nav-item" href="#">Business</a></li>
+              <li><a class="header__nav-item" href="#">News</a></li>
+              <li><a class="header__nav-item" href="#">Contact</a></li>
+              <li><a class="header__nav-item" href="#">Recruit</a></li>
+            </ul>
+          </nav>
+          <div class="header__search">
+            <input
+              type="text"
+              class="header__search-input"
+              placeholder="Search"
+            />
+          </div>
+          <div class="header__language">
+            <a href="#" class="header__language-link">JP</a>
+            <p class="header__language-separator">|</p>
+            <a href="#" class="header__language-link">EN</a>
+          </div>
         </div>
       </header>
       <main class="content">
-        <section class="banner"></section>
+        <section class="banner">
+          <div class="banner__left">
+            <div class="banner__left-word">
+              <p>SCROLL</p>
+            </div>
+            <div class="banner__left-line">
+              <img
+                class="banner__left-line__img"
+                src="assets/Line 736.svg"
+                alt="line"
+              />
+            </div>
+            <div class="text"></div>
+          </div>
+          <div class="banner__right"></div>
+        </section>
         <section class="company"></section>
         <section class="charging"></section>
         <section class="cloud"></section>
