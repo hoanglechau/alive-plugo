@@ -1,13 +1,13 @@
 .header {
   display: flex;
   position: sticky;
-  max-width: 100%;
+  width: 100%;
 }
 
 .header__container {
-  max-width: 100%;
+  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
   margin: 0 auto;
 }
@@ -16,6 +16,7 @@
   font-family: "Gothic";
   font-size: 16px;
   font-weight: normal;
+  color: #001950;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +24,7 @@
 
 .header__language-link {
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 
 .header__logo {
