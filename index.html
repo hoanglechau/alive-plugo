@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plugo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
@@ -55,7 +59,36 @@
             </div>
             <div class="text"></div>
           </div>
-          <div class="banner__right"></div>
+          <div class="banner__right">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img
+                    class="banner__img-1"
+                    src="./assets/banner-1.png"
+                    alt="Banner Image 1"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="banner__img-2"
+                    src="./assets/banner-2.png"
+                    alt="Banner Image 2"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="banner__img-3"
+                    src="./assets/banner-3.png"
+                    alt="Banner Image 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <section class="company"></section>
         <section class="charging"></section>
@@ -65,5 +98,7 @@
       </main>
       <footer class="footer"></footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
