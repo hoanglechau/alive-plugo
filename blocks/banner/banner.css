@@ -1,0 +1,26 @@
+.banner__left {
+  max-width: 10%;
+}
+
+.banner__left-word {
+  writing-mode: sideways-lr;
+  font-family: "Gothic";
+  font-size: 16px;
+  font-weight: normal;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__left-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.banner__right {
+  max-width: 90%;
+}
