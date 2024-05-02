@@ -1,0 +1,43 @@
+.cloud {
+  width: 100%;
+  background-color: #f2f5f7;
+  padding: 80px 50px 80px 0;
+}
+
+.cloud__container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/image-cloud.png");
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cloud__text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 0 0 50px;
+}
+
+.cloud__text {
+  font-family: "Plugo Gothic";
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.cloud__text-big {
+  font-size: 60px;
+  margin: 0 0 20px 0;
+}
+
+.cloud__text-small {
+  font-size: 16px;
+  margin: 0;
+}
