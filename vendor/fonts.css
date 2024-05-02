@@ -21,3 +21,11 @@
   font-display: swap;
   src: url("PLUGOGothic2.0-Regular.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "Hiragino Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("Hiragino Sans GB W05 W4.otf") format("opentype");
+}

@@ -4,45 +4,214 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plugo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <div class="header__logo">
-          <img src="assets/logo-p.svg" alt="logo" />
-          <img src="assets/logo-l.svg" alt="logo" />
-          <img src="assets/logo-u.svg" alt="logo" />
-          <img src="assets/logo-g.svg" alt="logo" />
-          <img src="assets/logo-o.svg" alt="logo" />
-        </div>
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li><a class="header__nav-item" href="#">Company</a></li>
-            <li><a class="header__nav-item" href="#">Business</a></li>
-            <li><a class="header__nav-item" href="#">News</a></li>
-            <li><a class="header__nav-item" href="#">Contact</a></li>
-            <li><a class="header__nav-item" href="#">Recruit</a></li>
-          </ul>
-        </nav>
-        <div class="header__search">
-          <input type="text" class="header__search-input" />
-        </div>
-        <div class="header__language">
-          <a href="#" class="header__language-link">JP</a>
-          <p class="header__language-separator">|</p>
-          <a href="#" class="header__language-link">EN</a>
+        <div class="header__container">
+          <div class="header__logo">
+            <img src="assets/logo-p.svg" alt="logo" />
+            <img src="assets/logo-l.svg" alt="logo" />
+            <img src="assets/logo-u.svg" alt="logo" />
+            <img src="assets/logo-g.svg" alt="logo" />
+            <img src="assets/logo-o.svg" alt="logo" />
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li><a class="header__nav-item" href="#">Company</a></li>
+              <li><a class="header__nav-item" href="#">Business</a></li>
+              <li><a class="header__nav-item" href="#">News</a></li>
+              <li><a class="header__nav-item" href="#">Contact</a></li>
+              <li><a class="header__nav-item" href="#">Recruit</a></li>
+            </ul>
+          </nav>
+          <div class="header__search">
+            <input
+              type="text"
+              class="header__search-input"
+              placeholder="Search"
+            />
+          </div>
+          <div class="header__language">
+            <a href="#" class="header__language-link">JP</a>
+            <p class="header__language-separator">|</p>
+            <a href="#" class="header__language-link">EN</a>
+          </div>
         </div>
       </header>
       <main class="content">
-        <section class="banner"></section>
-        <section class="company"></section>
-        <section class="charging"></section>
-        <section class="cloud"></section>
+        <section class="banner">
+          <div class="banner__left">
+            <div class="banner__left-word">
+              <p>SCROLL</p>
+            </div>
+            <div class="banner__left-line">
+              <img
+                class="banner__left-line__img"
+                src="assets/banner-line.svg"
+                alt="line"
+              />
+            </div>
+            <div class="text"></div>
+          </div>
+          <div class="banner__right">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img
+                    class="banner__img"
+                    src="./assets/banner-1.png"
+                    alt="Banner Image 1"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="banner__img"
+                    src="./assets/banner-2.png"
+                    alt="Banner Image 2"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="banner__img"
+                    src="./assets/banner-3.png"
+                    alt="Banner Image 3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="banner__right-text">
+              <p class="banner__right-text__date">2023.07.23</p>
+              <p class="banner__right-text__content">
+                ミニストップとプラゴ、
+                店舗でのEV充電サービス提供に関する協業を開始
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="company">
+          <div class="company__text-container">
+            <div class="company__text-1">
+              <p class="company__text">
+                持続可能な未来から、持続したくなる未来へ。
+              </p>
+              <p class="company__text">
+                EV充電の可能性を描き、共感と共創を推進力に、
+              </p>
+              <p class="company__text">人と社会が心地よくつながる</p>
+              <p class="company__text">ポジティブなEVシフトを加速していく。</p>
+            </div>
+            <div class="company__text-2">
+              <p class="company__text">
+                私たちプラゴは、続けたくなる未来を創ります。
+              </p>
+            </div>
+          </div>
+          <div class="company__button-container">
+            <button class="company__button" type="button">Company</button>
+          </div>
+        </section>
+        <section class="charging">
+          <div class="charging__container">
+            <div class="charging__text-container">
+              <div class="charging__text">
+                <p class="charging__text-big">EV Charging Service</p>
+                <p class="charging__text-small">
+                  充電体験を向上させ、人・空間・社会をつなぐEV充電サービス
+                </p>
+              </div>
+              <div class="charging__button">
+                <img src="./assets/button-arrow-big.svg" alt="Arrow Button" />
+              </div>
+            </div>
+            <div class="charging__bar-container">
+              <div class="charging__bar-text__container">
+                <div class="charging__bar-text">
+                  <p class="charging__bar-text__big">EV充電ステーション</p>
+                  <p class="charging__bar-text__small">
+                    心地よさを追求したEV充電サービス
+                  </p>
+                </div>
+                <div class="charging__bar-button">
+                  <img
+                    src="./assets/button-arrow-big-black.svg"
+                    class="charging__bar-button__img"
+                    alt="Arrow Button"
+                  />
+                </div>
+              </div>
+              <img
+                class="charging__bar-line__img"
+                src="assets/bar-line.svg"
+                alt="line"
+              />
+              <div class="charging__bar-text__container">
+                <div class="charging__bar-text">
+                  <p class="charging__bar-text__big">EVユーザー向けアプリ</p>
+                  <p class="charging__bar-text__small">
+                    EV充電をこれからのおもてなしに
+                  </p>
+                </div>
+                <div class="charging__bar-button">
+                  <img
+                    src="./assets/button-arrow-big-black.svg"
+                    class="charging__bar-button__img"
+                    alt="Arrow Button"
+                  />
+                </div>
+              </div>
+              <img
+                class="charging__bar-line__img"
+                src="assets/bar-line.svg"
+                alt="line"
+              />
+              <div class="charging__bar-text__container">
+                <div class="charging__bar-text">
+                  <p class="charging__bar-text__big">PLUGO PLACE</p>
+                  <p class="charging__bar-text__small">
+                    充電時間を豊かにする新たな交通ハブ
+                  </p>
+                </div>
+                <div class="charging__bar-button">
+                  <img
+                    src="./assets/button-arrow-big-black.svg"
+                    class="charging__bar-button__img"
+                    alt="Arrow Button"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cloud">
+          <div class="cloud__container">
+            <div class="cloud__text-container">
+              <div class="cloud__text">
+                <p class="cloud__text-big">EV Charging Service</p>
+                <p class="cloud__text-small">
+                  充電体験を向上させ、人・空間・社会をつなぐEV充電サービス
+                </p>
+              </div>
+              <div class="cloud__button">
+                <img src="./assets/button-arrow-big.svg" alt="Arrow Button" />
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="partner"></section>
         <section class="news"></section>
       </main>
       <footer class="footer"></footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

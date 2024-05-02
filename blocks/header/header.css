@@ -1,16 +1,38 @@
 .header {
   display: flex;
+  position: sticky;
+  width: 100%;
+}
+
+.header__container {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  margin: 0 auto;
 }
 
 .header__language {
-  font-family: "Plugo Gothic";
+  font-family: "Gothic";
   font-size: 16px;
+  font-weight: normal;
+  color: #001950;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__language-link {
   text-decoration: none;
-  color: #000;
+  color: black;
+}
+
+.header__logo {
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 
 .header__nav {
@@ -25,12 +47,29 @@
 .header__nav-item {
   margin-right: 10px;
   text-decoration: none;
-  font-family: "Plugo Gothic";
+  color: #001950;
+  font-family: "Gothic";
   font-size: 18px;
+  font-weight: normal;
+}
+
+.header__search {
+  max-width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__search-input {
   background-image: url(../../assets/icon-search.svg);
-  background-position: right 0% bottom 0%;
+  background-position: right 5% bottom 50%;
   background-repeat: no-repeat;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 5px;
+  font-family: "Gothic";
+  font-size: 12px;
+  font-weight: normal;
+  padding: 2px 0 0 6px;
 }
