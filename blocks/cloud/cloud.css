@@ -1,5 +1,5 @@
 .cloud {
-  width: 100%;
+  max-width: 100%;
   background-color: #f2f5f7;
   padding: 80px 50px 80px 0;
 }
