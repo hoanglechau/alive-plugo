@@ -1,5 +1,5 @@
 .cloud {
-  width: 100%;
+  max-width: 100%;
   background-color: #f2f5f7;
   padding: 80px 50px 80px 0;
 }
@@ -12,10 +12,32 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   display: flex;
   align-items: center;
   position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.cloud__container:hover {
+  filter: brightness(150%);
+}
+
+.cloud__button {
+  background-image: url(../../assets/button-arrow-big.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+.cloud__container:hover .cloud__button {
+  background-image: url(../../assets/button-arrow-big-blue.svg);
+  background-color: white;
 }
 
 .cloud__text-container {
