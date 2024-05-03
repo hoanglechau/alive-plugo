@@ -57,3 +57,29 @@
 .footer__space {
   width: 30%;
 }
+
+.footer__lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+}
+
+.footer__lower-text {
+  font-family: "Gothic";
+  font-size: 12px;
+  font-weight: normal;
+  color: #001950;
+}
+
+.footer__lower-link {
+  font-family: "Gothic";
+  font-size: 12px;
+  font-weight: normal;
+  color: #001950;
+  text-decoration: none;
+}
+
+.footer__lower-space {
+  width: 60%;
+}
