@@ -42,6 +42,10 @@
   position: relative;
 }
 
+.banner__right:hover {
+  cursor: pointer;
+}
+
 .banner__right-text {
   font-family: "Plugo Gothic";
   font-size: 12px;
