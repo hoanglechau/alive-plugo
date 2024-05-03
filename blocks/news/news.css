@@ -38,11 +38,17 @@
   background-color: #ffffff;
   width: 350px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .news__card__img {
   width: 100%;
   height: auto;
+  transition: 0.3s;
+}
+
+.news__card__img:hover {
+  opacity: 0.5;
 }
 
 .news__card__text-container {
@@ -71,8 +77,16 @@
   color: #001950;
   border-radius: 30px;
   text-decoration: none;
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #001950;
   cursor: pointer;
   padding: 5px 40px;
+  background: linear-gradient(to left, #ffffff 50%, #001950 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+}
+
+.news__button:hover {
+  background-position: left;
+  color: #ffffff;
 }
