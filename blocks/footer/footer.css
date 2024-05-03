@@ -1,0 +1,59 @@
+.footer {
+  font-family: "Gothic";
+  font-weight: normal;
+}
+
+.footer__upper {
+  background-color: #001950;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.footer__logo {
+  min-width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+}
+
+.footer__nav-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav-1-link__big {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 15px 0 0 0;
+  font-size: 14px;
+}
+
+.footer__nav-1-link__small {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 5px 0 0 3px;
+  font-size: 10px;
+}
+
+.footer__nav-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__nav-2-link__big {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.footer__icon {
+  margin: 0 0 0 10px;
+}
+
+.footer__space {
+  width: 30%;
+}
