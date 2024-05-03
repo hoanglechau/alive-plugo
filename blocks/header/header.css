@@ -2,29 +2,15 @@
   display: flex;
   position: sticky;
   width: 100%;
+  padding: 20px 50px;
 }
 
 .header__container {
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   display: flex;
   margin: 0 auto;
-}
-
-.header__language {
-  font-family: "Gothic";
-  font-size: 16px;
-  font-weight: normal;
-  color: #001950;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header__language-link {
-  text-decoration: none;
-  color: black;
 }
 
 .header__logo {
@@ -32,7 +18,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 20px;
+}
+
+.header__space {
+  width: 20%;
 }
 
 .header__nav {
@@ -42,10 +31,12 @@
 .header__nav-list {
   display: flex;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header__nav-item {
-  margin-right: 10px;
+  margin: 0 40px 0 0;
   text-decoration: none;
   color: #001950;
   font-family: "Gothic";
@@ -54,10 +45,11 @@
 }
 
 .header__search {
-  max-width: 15%;
+  max-width: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 20px 0 0;
 }
 
 .header__search-input {
@@ -72,4 +64,23 @@
   font-size: 12px;
   font-weight: normal;
   padding: 2px 0 0 6px;
+}
+
+.header__language {
+  font-family: "Gothic";
+  font-size: 16px;
+  font-weight: normal;
+  color: #001950;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__language-separator {
+  margin: 0 10px;
+}
+
+.header__language-link {
+  text-decoration: none;
+  color: black;
 }
