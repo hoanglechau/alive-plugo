@@ -12,10 +12,32 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   display: flex;
   align-items: center;
   position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.charging__container:hover {
+  filter: brightness(150%);
+}
+
+.charging__button {
+  background-image: url(../../assets/button-arrow-big.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+.charging__container:hover .charging__button {
+  background-image: url(../../assets/button-arrow-big-blue.svg);
+  background-color: white;
 }
 
 .charging__text-container {
@@ -42,11 +64,6 @@
   margin: 0;
 }
 
-.charging__bar-button__img {
-  width: 30px;
-  height: 30px;
-}
-
 .charging__bar-container {
   position: absolute;
   z-index: 10;
@@ -54,18 +71,56 @@
   justify-content: center;
   align-items: center;
   bottom: -50px;
-  right: 45px;
+  right: 0;
   background-color: #ffffff;
+  border: 1px;
   border-radius: 5px;
-  padding: 20px 30px;
+}
+
+.charging__bar-text__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Gothic";
+  font-weight: normal;
+  color: #001950;
+  background: linear-gradient(to left, #ffffff 50%, #001950 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+  position: relative;
+  padding: 30px 20px 20px 30px;
+}
+
+.charging__container-1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.charging__bar-text__container:hover {
+  background-position: left;
+  color: #ffffff;
+}
+
+.charging__bar-button {
+  z-index: 10;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.charging__bar-button__img {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 25px;
 }
 
 .charging__bar-line__img {
-  margin: 0 20px;
+  margin: 0;
 }
 
 .charging__bar-text {
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 .charging__bar-text__big {
@@ -76,13 +131,4 @@
 .charging__bar-text__small {
   font-size: 12px;
   margin: 0;
-}
-
-.charging__bar-text__container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-family: "Gothic";
-  font-weight: normal;
-  color: #001950;
 }
