@@ -97,4 +97,11 @@
 }
 
 @media screen and (max-width: 568px) {
+  .banner__left-word {
+    font-size: 1vw;
+  }
+
+  .banner__right-text {
+    font-size: 1vw;
+  }
 }
