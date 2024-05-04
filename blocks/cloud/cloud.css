@@ -63,3 +63,41 @@
   font-size: 16px;
   margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .cloud__text-big {
+    font-size: 6vw;
+  }
+
+  .cloud__text-small {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 568px) {
+  .cloud {
+    padding: 40px 25px 40px 0;
+  }
+
+  .cloud__text-big {
+    font-size: 4vw;
+  }
+
+  .cloud__text-small {
+    font-size: 1.4vw;
+  }
+
+  .cloud__button {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  .cloud__container {
+    height: 200px;
+    width: 100%;
+  }
+}
