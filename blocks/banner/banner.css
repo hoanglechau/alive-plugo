@@ -22,7 +22,7 @@
 }
 
 .banner__left-word {
-  writing-mode: sideways-lr;
+  transform: rotate(-90deg);
   font-family: "Gothic";
   font-size: 16px;
   font-weight: normal;
