@@ -157,7 +157,7 @@
 
 @media screen and (max-width: 568px) {
   .charging {
-    padding: 40px 0 40px 25px;
+    padding: 40px 0 40px 15px;
   }
 
   .charging__text-big {
