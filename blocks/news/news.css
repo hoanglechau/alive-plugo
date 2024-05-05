@@ -1,7 +1,7 @@
 .news {
   max-width: 100%;
   background-color: #f2f5f7;
-  padding: 80px 0;
+  padding: 80px 50px;
 }
 
 .news__container {
@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   font-family: "Plugo Gothic";
   font-weight: normal;
@@ -89,4 +89,62 @@
 .news__button:hover {
   background-position: left;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1280px) {
+  .news__text-big {
+    font-size: 4vw;
+  }
+
+  .news__text-small {
+    font-size: 1.4vw;
+  }
+
+  .news__button {
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 568px) {
+  .news {
+    padding: 40px 15px;
+  }
+
+  .news__text-big {
+    margin: 0 0 10px 0;
+  }
+
+  .news__text-small {
+    margin: 0 0 30px 0;
+  }
+
+  .news__card-container {
+    margin: 0 0 25px 0;
+  }
+
+  .news__card__title {
+    margin: 0 0 5px 0;
+    font-size: 1vw;
+  }
+
+  .news__card__date {
+    margin: 0 0 5px 0;
+    font-size: 1.2vw;
+  }
+
+  .news__card__content {
+    margin: 0;
+    font-size: 1.2vw;
+  }
+
+  .news__card {
+    width: 100px;
+  }
+
+  .news__card__text-container {
+    padding: 12px 10px;
+  }
 }
