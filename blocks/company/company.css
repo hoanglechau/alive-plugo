@@ -1,6 +1,6 @@
 .company {
   width: 100%;
-  padding: 70px 0;
+  padding: 100px 0;
 }
 
 .company__button-container {
@@ -60,4 +60,34 @@
 
 .company__text {
   margin: 0 0 15px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .company__text-container {
+    font-size: 1.4vw;
+  }
+
+  .company__button {
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .company {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .company {
+    padding: 40px 0;
+  }
+
+  .company__text-1 {
+    margin: 0 0 10px 0;
+  }
+
+  .company__text-2 {
+    margin: 0 0 5px 0;
+  }
 }

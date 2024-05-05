@@ -75,6 +75,7 @@
   background-color: #ffffff;
   border: 1px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .charging__bar-text__container {
@@ -131,4 +132,86 @@
 .charging__bar-text__small {
   font-size: 12px;
   margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .charging__text-big {
+    font-size: 6vw;
+  }
+
+  .charging__text-small {
+    font-size: 2vw;
+  }
+
+  .charging__bar-text__big {
+    font-size: 1.6vw;
+  }
+
+  .charging__bar-text__small {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .charging {
+    padding: 40px 0 40px 25px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .charging {
+    padding: 40px 0 40px 15px;
+  }
+
+  .charging__text-big {
+    font-size: 4vw;
+  }
+
+  .charging__text-small {
+    font-size: 1.4vw;
+  }
+
+  .charging__button {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  .charging__bar-text__big {
+    font-size: 1.2vw;
+  }
+
+  .charging__bar-text__small {
+    font-size: 1vw;
+  }
+
+  .charging__container {
+    height: 200px;
+    width: 100%;
+  }
+
+  .charging__bar-button__img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .charging__bar-text__container {
+    padding: 8px 5px 5px 8px;
+  }
+
+  .charging__bar-text {
+    margin-right: 5px;
+  }
+
+  .charging__bar-button {
+    z-index: 10;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+
+  .charging__bar-container {
+    bottom: -10px;
+    height: 37px;
+  }
 }
