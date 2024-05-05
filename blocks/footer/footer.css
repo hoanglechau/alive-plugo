@@ -85,9 +85,43 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .footer__nav-1-link__big {
+    font-size: 1.4vw;
+  }
+
+  .footer__nav-1-link__small {
+    font-size: 1vw;
+  }
+
+  .footer__nav-2-link__big {
+    font-size: 1.4vw;
+  }
+
+  .footer__lower-text {
+    font-size: 1.2vw;
+  }
+
+  .footer__lower-link {
+    font-size: 1.2vw;
+  }
 }
 
 @media screen and (max-width: 850px) {
+  .footer__upper {
+    padding: 25px;
+  }
+
+  .footer__space {
+    width: 20%;
+  }
+
+  .footer__lower {
+    padding: 5px 25px;
+  }
+
+  .footer__lower-space {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 568px) {
