@@ -114,6 +114,10 @@
   .footer__lower-link {
     font-size: 1.2vw;
   }
+
+  .footer__lower-space {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -150,17 +154,14 @@
 
   .footer__nav-1-link__big {
     margin: 10px 0 0 0;
-    font-size: 1.4vw;
   }
 
   .footer__nav-1-link__small {
     margin: 3px 0 0 3px;
-    font-size: 1vw;
   }
 
   .footer__nav-2-link__big {
     margin: 8px 0 0 0;
-    font-size: 1.4vw;
   }
 
   .footer__icon {
@@ -175,17 +176,5 @@
 
   .footer__lower {
     padding: 5px 15px;
-  }
-
-  .footer__lower-text {
-    font-size: 1.2vw;
-  }
-
-  .footer__lower-link {
-    font-size: 1.2vw;
-  }
-
-  .footer__lower-space {
-    width: 40%;
   }
 }
