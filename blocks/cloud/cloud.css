@@ -75,6 +75,9 @@
 }
 
 @media screen and (max-width: 850px) {
+  .cloud {
+    padding: 40px 25px 40px 0;
+  }
 }
 
 @media screen and (max-width: 568px) {

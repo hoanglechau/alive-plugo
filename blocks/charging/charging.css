@@ -153,6 +153,9 @@
 }
 
 @media screen and (max-width: 850px) {
+  .charging {
+    padding: 40px 0 40px 25px;
+  }
 }
 
 @media screen and (max-width: 568px) {
