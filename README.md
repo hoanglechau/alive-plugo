@@ -1,1 +1,1 @@
-# alive-plugo
+# Plugo
