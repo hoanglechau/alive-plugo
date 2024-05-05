@@ -14,6 +14,8 @@
   margin: 0 auto;
 }
 
+/* Header Logo */
+
 .header__logo {
   min-width: 15%;
   display: flex;
@@ -24,6 +26,8 @@
 .header__space {
   width: 20%;
 }
+
+/* Header Navigation */
 
 .header__nav {
   display: flex;
@@ -111,6 +115,8 @@
   animation: fadein 1s;
 }
 
+/* Header Search Bar */
+
 .header__search {
   max-width: 10%;
   display: flex;
@@ -133,6 +139,8 @@
   padding: 2px 0 0 6px;
 }
 
+/* Header Language Section */
+
 .header__language {
   font-family: "Gothic";
   font-size: 16px;
@@ -151,6 +159,8 @@
   text-decoration: none;
   color: black;
 }
+
+/* Navigation Animation */
 
 @keyframes fadein {
   from {
@@ -200,6 +210,8 @@
     opacity: 1;
   }
 }
+
+/* Responsive Design */
 
 @media screen and (max-width: 1280px) {
   .header__nav-item {

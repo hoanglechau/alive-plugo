@@ -16,6 +16,8 @@
   color: #001950;
 }
 
+/* News Text */
+
 .news__text-big {
   font-size: 60px;
   margin: 0 0 20px 0;
@@ -25,6 +27,8 @@
   font-size: 16px;
   margin: 0 0 60px 0;
 }
+
+/* News Cards */
 
 .news__card-container {
   display: flex;
@@ -70,6 +74,8 @@
   font-size: 12px;
 }
 
+/* News Button */
+
 .news__button {
   font-family: "Gothic";
   font-size: 10px;
@@ -90,6 +96,8 @@
   background-position: left;
   color: #ffffff;
 }
+
+/* Responsive Design */
 
 @media screen and (max-width: 1280px) {
   .news__text-big {
