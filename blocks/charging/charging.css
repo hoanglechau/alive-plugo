@@ -25,20 +25,12 @@
   filter: brightness(150%);
 }
 
-.charging__button {
-  background-image: url(../../assets/button-arrow-big.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80px;
-  width: 80px;
-  border-radius: 50px;
-}
-
 .charging__container:hover .charging__button {
   background-image: url(../../assets/button-arrow-big-blue.svg);
   background-color: white;
 }
+
+/* Charging Text and Button */
 
 .charging__text-container {
   display: flex;
@@ -63,6 +55,18 @@
   font-size: 16px;
   margin: 0;
 }
+
+.charging__button {
+  background-image: url(../../assets/button-arrow-big.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+/* Charging Bar */
 
 .charging__bar-container {
   position: absolute;
@@ -133,6 +137,8 @@
   font-size: 12px;
   margin: 0;
 }
+
+/* Responsive Design */
 
 @media screen and (max-width: 1280px) {
   .charging__text-big {
@@ -211,7 +217,7 @@
   }
 
   .charging__bar-container {
-    bottom: -10px;
+    bottom: -20px;
     height: 37px;
   }
 }

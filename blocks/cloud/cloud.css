@@ -25,20 +25,12 @@
   filter: brightness(150%);
 }
 
-.cloud__button {
-  background-image: url(../../assets/button-arrow-big.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80px;
-  width: 80px;
-  border-radius: 50px;
-}
-
 .cloud__container:hover .cloud__button {
   background-image: url(../../assets/button-arrow-big-blue.svg);
   background-color: white;
 }
+
+/* Cloud Text and Button */
 
 .cloud__text-container {
   display: flex;
@@ -63,6 +55,18 @@
   font-size: 16px;
   margin: 0;
 }
+
+.cloud__button {
+  background-image: url(../../assets/button-arrow-big.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+/* Responsive Design */
 
 @media screen and (max-width: 1280px) {
   .cloud__text-big {

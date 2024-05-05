@@ -11,6 +11,8 @@
   border-bottom-left-radius: 5px;
 }
 
+/* Banner Left Side */
+
 .banner__left {
   width: 10%;
   display: flex;
@@ -37,6 +39,8 @@
   align-items: center;
   padding-top: 10px;
 }
+
+/* Banner Right Side */
 
 .banner__right {
   width: 90%;
@@ -75,6 +79,8 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Responsive Design */
 
 @media screen and (max-width: 1280px) {
   .banner__left-word {
